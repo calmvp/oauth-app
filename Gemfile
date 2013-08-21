@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 # PostgreSQL driver
 gem 'pg'
@@ -17,7 +17,7 @@ gem 'rake'
 gem 'shotgun'
 
 gem 'oauth'
-gem 'twitter'
+gem 'twitter', :git => "https://github.com/sferik/twitter.git"
 
 group :test do
   gem 'faker'
